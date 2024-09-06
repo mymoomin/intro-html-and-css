@@ -89,7 +89,7 @@ hgroup > p {
   gap: 2ch;
 }
 
-main {
+body {
   margin: 0 auto;
   max-width: 100ch;
 }
