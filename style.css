@@ -128,3 +128,11 @@ nav a {
     font-size: 0.5rem;
   }
 }
+
+.wide {
+  width: 100%;
+}
+
+.wide > img {
+  width: 100%;
+}
