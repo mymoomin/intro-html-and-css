@@ -1,0 +1,13 @@
+menu > li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+a[target="_blank"]::after {
+  content: url("new-tab.svg");
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
