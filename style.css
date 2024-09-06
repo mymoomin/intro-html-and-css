@@ -89,7 +89,7 @@ hgroup > p {
   gap: 2ch;
 }
 
-body {
+main {
   margin: 0 auto;
   max-width: 100ch;
 }
@@ -97,6 +97,11 @@ body {
 nav {
   background-color: #ee6e73;
   padding: 0.5rem;
+}
+
+.nav-inner {
+  margin: 0 auto;
+  max-width: 100ch;
 }
 
 nav ul {
@@ -108,7 +113,7 @@ nav ul {
 nav ul li {
   float: left;
   /* margin: 0; */
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 nav a {
