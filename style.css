@@ -105,3 +105,16 @@ nav ul li {
   /* margin: 0; */
   padding-left: 1rem;
 }
+
+.breathe {
+  animation: breathe 3s ease infinite alternate;
+}
+
+@keyframes breathe {
+  from {
+    font-size: 1rem;
+  }
+  to {
+    font-size: 0.5rem;
+  }
+}
