@@ -85,3 +85,9 @@ menu {
 .three {
   padding: 0.1rem 0.2rem 0.3rem 0.4rem;
 }
+
+.column-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2ch;
+}
