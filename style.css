@@ -43,3 +43,45 @@ ul,
 ol {
   color: darkred;
 }
+
+section {
+  margin-bottom: 5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+menu {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  background-color: aquamarine;
+  background-clip: content-box;
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  border: 1px solid red;
+}
+
+.box-container {
+  outline: 1px solid red;
+  background-color: white;
+}
+
+.one {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.two {
+  padding: 0.5rem 0.1rem;
+  margin-bottom: 0.8rem;
+  margin-right: 0.3rem;
+}
+
+.three {
+  padding: 0.1rem 0.2rem 0.3rem 0.4rem;
+}
