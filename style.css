@@ -29,3 +29,17 @@ img.modified {
   border-radius: 100%;
   border: 3px dashed salmon;
 }
+
+h1,
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a {
+  font-size: 1.1rem;
+}
+
+ul,
+ol {
+  color: darkred;
+}
