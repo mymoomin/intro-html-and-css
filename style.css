@@ -39,6 +39,10 @@ ol {
   color: darkred;
 }
 
+* {
+  line-height: calc(1em + 0.5rem);
+}
+
 section {
   margin-bottom: 5rem;
 }
@@ -95,8 +99,11 @@ main {
 }
 
 nav {
-  background-color: #ee6e73;
+  /* background-color: #ee6e73; */
+  background-color: #e0292f;
   padding: 0.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 .nav-inner {
