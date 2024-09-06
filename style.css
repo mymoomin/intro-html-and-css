@@ -11,3 +11,13 @@ a[target="_blank"]::after {
   position: relative;
   top: 2px;
 }
+
+.float-right {
+  clear: right;
+  float: right;
+  width: 16ch;
+}
+
+figure {
+  margin: 0;
+}
