@@ -13,6 +13,12 @@ a[target="_blank"]::after {
   width: 16ch;
 }
 
+.float-right img,
+img.float-right {
+  max-width: 100%;
+  height: auto;
+}
+
 figure {
   margin: 0;
 }

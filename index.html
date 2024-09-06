@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <meta name="description" content="An example of some HTML and CSS features">
+    <meta
+      name="description"
+      content="An example of some HTML and CSS features"
+    />
     <title>Intro HTML Demo</title>
   </head>
   <body>
@@ -29,7 +32,7 @@
         <h2>HTML</h2>
 
         <figure class="float-right">
-          <img src="HTML5_Badge.svg" alt="" />
+          <img src="HTML5_Badge.svg" alt="" width="512" height="512"/>
           <figcaption>The HTML 5 logo</figcaption>
           <!-- With a figcaption there's no need for an alt text -->
         </figure>
@@ -54,6 +57,8 @@
           class="float-right"
           src="CSS3_logo_and_wordmark.svg"
           alt="The CSS 3 logo"
+          width="1000"
+          height="1411"
         />
 
         <p>
@@ -90,10 +95,23 @@
           <li>Overly stretched (using <code>aspect-ration: 10</code>)</li>
           <li>Have a border (using <code>border: 3px dashed salmon</code>)</li>
         </ul>
+        <!-- height="2125" -->
         <img
+          srcset="
+            landscapes/landscape-400w.avif   400w,
+            landscapes/landscape-600w.avif   600w,
+            landscapes/landscape-800w.avif   800w,
+            landscapes/landscape-1000w.avif 1000w,
+            landscapes/landscape-1200w.avif 1200w,
+            landscapes/landscape-1600w.avif 1600w,
+            landscapes/landscape-2000w.avif 2000w
+          "
+          sizes="(max-width: 400px) 400px, (max-width: 600px) 600px, (max-width: 800px) 800px, (max-width: 1000px) 1000px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (min-width: 1601px) 2000px"
+          width="3200"
           class="modified"
-          src="landscape.jpeg"
+          src="landscape.avif"
           alt="A photo of a mountain lake. There are red kayaks in the foreground."
+          loading="lazy"
         />
 
         <p>
