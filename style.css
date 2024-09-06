@@ -139,5 +139,10 @@ nav a {
 }
 
 .wide > img {
+  margin: 2rem 0;
   width: 100%;
+}
+
+body {
+  margin: 0;
 }
