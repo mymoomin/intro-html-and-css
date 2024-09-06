@@ -15,8 +15,10 @@
       </menu>
     </header>
     <main>
-      <h1>This is an article about HTML and CSS</h1>
-      <p>I don't have much to say though.</p>
+      <hgroup>
+        <h1>This is an article about HTML and CSS</h1>
+        <p>Created as part of the Northcoders bootcamp</p>
+      </hgroup>
 
       <section>
         <h2>HTML</h2>
@@ -79,7 +81,7 @@
           <abbr title="Cascading Style Sheets">CSS</abbr>, to make it:
         </p>
         <ul>
-          <li>Fill the window (using <code>width: 100%</code>)</li>
+          <li>Fill its container (using <code>width: 100%</code>)</li>
           <li>Overly stretched (using <code>aspect-ration: 10</code>)</li>
           <li>Have a border (using <code>border: 3px dashed salmon</code>)</li>
         </ul>
@@ -89,26 +91,40 @@
           alt="A photo of a mountain lake. There are red kayaks in the foreground."
         />
 
-        <p>Each of the squares in this rectange has a different padding and margin</p>
+        <p>
+          Each of the squares in this rectange has a different padding and
+          margin
+        </p>
         <div class="box-container">
-            <div class="box one"></div><div class="box two"></div><div class="box three"></div>
+          <div class="box one"></div>
+          <div class="box two"></div>
+          <div class="box three"></div>
         </div>
 
-        <p>Elements can be positioned responsively using <abbr title="Cascading Style Sheets">CSS</abbr> Grid, as in this example two-column layout</p>
+        <p>
+          Elements can be positioned responsively using
+          <abbr title="Cascading Style Sheets">CSS</abbr> Grid, as in this
+          example two-column layout
+        </p>
 
         <div class="column-container">
-            <div class="column">
-                <h3>Side 1</h3>
-                <p>This is on the left.</p>
-                <p>As the window size changes, this long paragraph of verbose text will be automatically resized to fit within its column</p>
-            </div>
-            <div class="column">
-                <h3>Side 2</h3>
-                <p>This is on the right.</p>
-                <p>As the window size changes, this long paragraph of verbose text will be automatically resized to fit within its column</p>
-            </div>
+          <div class="column">
+            <h3>Side 1</h3>
+            <p>This is on the left.</p>
+            <p>
+              As the window size changes, this long paragraph of verbose text
+              will be automatically resized to fit within its column
+            </p>
+          </div>
+          <div class="column">
+            <h3>Side 2</h3>
+            <p>This is on the right.</p>
+            <p>
+              As the window size changes, this long paragraph of verbose text
+              will be automatically resized to fit within its column
+            </p>
+          </div>
         </div>
-
       </section>
     </main>
     <footer></footer>
